@@ -1,19 +1,23 @@
 body{
-    /*Default text is Lucida Grande font with a sans-serif as a fallback option */
+    /*Default text is Lucida Grande font with a sans-serif as a fallback option. All text is white on a black background */
     font-family: "Lucida Grande", 'sans-serif';
-    margin: 0;
-    padding: 0;
+    color: #FFFFFF;
+    background-color: #000000;
   }
   h1{
-    /* make your headers #128ded color and bold */
-    color: #128ded;
-    font-weight: bold;
+    /* Header 1 is 64px, centered */
+    font-size: 64px;
+    text-align: center;
+  }
+  h2{
+      /* Header 2 is 30px, with grey (#808080) drop shadow that is offset 5px horizontally, 5px vertically, and 2px blur */
+      font-size: 30px;
+      text-shadow: 5px 5px 2px #808080;
   }
   p{
-    /* make your paragraphs 14pt, double-spaced and 10px of padding on the left and right */
-    font-size: 14pt;
-    line-height: 2;
-    padding: 0 20px;
+    /* Paragraphs use 24px font and have 20px padding on the top only */
+    font-size: 24pt;
+    padding-top: 20px;
   }
   a{
     /* make your links red, italics, and underlined */
