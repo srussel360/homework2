@@ -45,7 +45,7 @@ body{
     background-color: #ffff00;
     text-align: right;
   }
-  h2#yellow{
+  h2 #yellow{
     text-shadow: #c7e2c7;
   }
   #green{
@@ -54,8 +54,9 @@ body{
     text-align: left;
   }
   footer{
-    /* style the footer so it has a black background and white text */
-    color: white;
-    background-color:black;
+    /* Footer text is right-aligned with 10px padding on the bottom and right only */
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
   }
   
