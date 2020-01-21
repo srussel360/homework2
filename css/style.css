@@ -22,7 +22,7 @@ body{
   img{
     /* All images are on their own line, All images are centered, All images are 525px wide with proper aspect ratio (they are not warped or stretched)*/
     display:block;
-    margin: 0 auto;
+    margin: 0 auto; /*https://stackoverflow.com/questions/7055393/center-image-using-text-align-center*/
     max-width: 525px;
   }
   div{
