@@ -44,13 +44,15 @@ body{
     /*Background color is yellow, Text is aligned on the right side, Header 2 and paragraph text is black, Header 2 drop shadow is #c7e2c7 with the same parameters as above*/
     background-color: #ffff00;
     text-align: right;
+    color: #000000;
   }
   h2 #yellow{
     text-shadow: #c7e2c7;
+    color: #000000;
   }
   #green{
     /*Background color is green, Text is aligned on the left side*/
-    background-color: #00ff00;
+    background-color: #005C00;
     text-align: left;
   }
   footer{
