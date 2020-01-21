@@ -19,27 +19,39 @@ body{
     font-size: 24pt;
     padding-top: 20px;
   }
-  a{
-    /* make your links red, italics, and underlined */
-    color: red;
-    font-style: italics;
-    text-decoration: underline;
-  }
-  a:hover{
-    /* make the background color of your link black and the text white when you hover over it */
-    color: white;
-    background-color: black;
-  }
-  ul{
-    /* make bullet points red squares */
-    list-style-type: square;
-    color: red;
-  }
   img{
-    /* make the image 300px wide and 220px high, 10px of padding, and a 3px dashed border in the color of your choice */
-    width: 300px;
-    height: 220px;
-    border: 3px dashed pink;
+    /* All images are on their own line, All images are centered, All images are 525px wide with proper aspect ratio (they are not warped or stretched)*/
+    display:block;
+    margin: 0 auto;
+    max-width: 525px;
+  }
+  div{
+     /*All divs must be at least 150px tall (but will automatically be taller if needed) with 25px padding on all sides*/
+    min-height: 150px;
+    padding: 25px;
+  }
+  #red{
+    /*Background color is red, Text is aligned on the right side*/
+    background-color: #ff0000;
+    text-align: right;
+  }
+  #blue{
+    /*Background color is blue, Text is aligned on the left side*/
+    background-color: #0000ff;
+    text-align: left;
+  }
+  #yellow{
+    /*Background color is yellow, Text is aligned on the right side, Header 2 and paragraph text is black, Header 2 drop shadow is #c7e2c7 with the same parameters as above*/
+    background-color: #ffff00;
+    text-align: right;
+  }
+  h2#yellow{
+    text-shadow: #c7e2c7;
+  }
+  #green{
+    /*Background color is green, Text is aligned on the left side*/
+    background-color: #00ff00;
+    text-align: left;
   }
   footer{
     /* style the footer so it has a black background and white text */
