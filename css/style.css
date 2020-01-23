@@ -46,7 +46,7 @@ body{
     text-align: right;
     color: #000000;
   }
-  h2 #yellow{
+  #yellow > h2{
     text-shadow: #c7e2c7;
     color: #000000;
   }
